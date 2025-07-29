@@ -18,6 +18,9 @@ on:
       - dev-*
       - feat-*
       - feat/**
+  issues:
+    types:
+      - opened
 jobs:
   deploy:
     runs-on: ubuntu-latest
